@@ -27,3 +27,11 @@ button{
 button:hover{
 	background-color: lightgray;
 }
+hr{
+	background-color: darkgray;
+	border-width: 5px;
+	border-radius: 20px;
+}
+img{
+	border-radius:20px;
+}
