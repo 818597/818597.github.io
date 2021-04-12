@@ -42,3 +42,20 @@ h3{
 	font-family: "Tommy";
 	color: whitesmoke;
 }
+.dropdown-hover {
+	position: relative;
+	display: inline-block;
+	background-color: gray;
+	
+}
+
+.dropdown-box {
+	display: none;
+	position:absolute;
+	background-color: darkgrey;
+	
+}
+.dropdown-hover:hover ~ 
+.dropdown-box   {
+	background-color:whitesmoke;
+}
